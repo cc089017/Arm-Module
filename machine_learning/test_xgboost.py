@@ -2,6 +2,7 @@ import pandas as pd
 import joblib
 from xgboost import XGBClassifier
 
+
 # 1. 모델 로드
 model = joblib.load('arm_model.pkl')
 
